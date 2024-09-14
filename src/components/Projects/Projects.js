@@ -22,7 +22,7 @@ function Projects() {
           
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col md={4} className="project-card">
+          <Col md={3} className="project-card">
             <ProjectCard
               imgPath={aakarsh}
               isBlog={false}
@@ -33,7 +33,7 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          <Col md={3} className="project-card">
             <ProjectCard
               imgPath={aakarsh}
               isBlog={false}
@@ -43,7 +43,7 @@ function Projects() {
               demoLink=""
             />
           </Col>
-          <Col md={4} className="project-card">
+          <Col md={3} className="project-card">
             <ProjectCard
               imgPath={aakarsh}
               isBlog={false}
@@ -54,7 +54,7 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          <Col md={3} className="project-card">
             <ProjectCard
               imgPath={aakarsh}
               isBlog={false}
@@ -64,7 +64,7 @@ function Projects() {
               demoLink=""
             />
           </Col>
-          <Col md={4} className="project-card">
+          <Col md={3} className="project-card">
             <ProjectCard
               imgPath={aakarsh}
               isBlog={false}
@@ -75,7 +75,7 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          <Col md={3} className="project-card">
             <ProjectCard
               imgPath={aakarsh}
               isBlog={false}
@@ -85,7 +85,7 @@ function Projects() {
               demoLink=""
             />
           </Col>
-          <Col md={4} className="project-card">
+          <Col md={3} className="project-card">
             <ProjectCard
               imgPath={aakarsh}
               isBlog={false}
@@ -96,7 +96,7 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          <Col md={3} className="project-card">
             <ProjectCard
               imgPath={aakarsh}
               isBlog={false}
@@ -124,7 +124,7 @@ function Projects() {
           
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col md={4} className="project-card">
+          <Col md={3} className="project-card">
             <ProjectCard
               imgPath={aakarsh}
               isBlog={false}
@@ -135,7 +135,7 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          <Col md={3} className="project-card">
             <ProjectCard
               imgPath={aakarsh}
               isBlog={false}
@@ -145,7 +145,7 @@ function Projects() {
               demoLink=""
             />
           </Col>
-          <Col md={4} className="project-card">
+          <Col md={3} className="project-card">
             <ProjectCard
               imgPath={aakarsh}
               isBlog={false}
@@ -156,7 +156,7 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          <Col md={3} className="project-card">
             <ProjectCard
               imgPath={aakarsh}
               isBlog={false}
@@ -166,7 +166,7 @@ function Projects() {
               demoLink=""
             />
           </Col>
-          <Col md={4} className="project-card">
+          <Col md={3} className="project-card">
             <ProjectCard
               imgPath={aakarsh}
               isBlog={false}
@@ -177,7 +177,7 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          <Col md={3} className="project-card">
             <ProjectCard
               imgPath={aakarsh}
               isBlog={false}
@@ -187,7 +187,7 @@ function Projects() {
               demoLink=""
             />
           </Col>
-          <Col md={4} className="project-card">
+          <Col md={3} className="project-card">
             <ProjectCard
               imgPath={aakarsh}
               isBlog={false}
@@ -198,7 +198,7 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          <Col md={3} className="project-card">
             <ProjectCard
               imgPath={aakarsh}
               isBlog={false}
