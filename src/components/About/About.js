@@ -6,6 +6,10 @@ import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/about.png";
 import Toolstack from "./Toolstack";
+import Card from "react-bootstrap/Card";  
+import { ImPointRight } from "react-icons/im";
+import icpc1 from "../../Assets/Projects/icpc1.jpg";
+import icpc2 from "../../Assets/Projects/icpc2.jpg";
 
 function About() {
   return (
@@ -22,7 +26,7 @@ function About() {
             }}
           >
             <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
-              Know Who <strong className="purple">I'M</strong>
+              ICPC <strong className="purple">Regionalist</strong>
             </h1>
             <Aboutcard />
           </Col>
@@ -31,21 +35,73 @@ function About() {
             style={{ paddingTop: "120px", paddingBottom: "50px" }}
             className="about-img"
           >
-            <img src={laptopImg} alt="about" className="img-fluid" />
+            <img src={icpc2} alt="about" className="img-fluid" />
+            {/* <img src={icpc1} alt="about" className="img-fluid" /> */}
           </Col>
         </Row>
-        <h1 className="project-heading">
+        <Row style={{ justifyContent: "center", padding: "10px" }}>
+          <Col
+            md={7}
+            style={{
+              justifyContent: "center",
+              paddingTop: "30px",
+              paddingBottom: "50px",
+            }}
+          >
+            <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
+              ICPC <strong className="purple">Regionalist</strong>
+            </h1>
+            <Card className="quote-card-view">
+      <Card.Body>
+        <blockquote className="blockquote mb-0">
+          <p style={{ textAlign: "left" }}>
+            The regional phase of the <span className="purple"> ICPC</span>, the <span className="purple">International Collegiate Programming Contest</span> —an algorithmic programming contest for college students across the world—has been concluded, and we extend resounding congratulations to the exceptional members of our accomplished team—a powerhouse of talent and dedication!
+          </p>
+          <p style={{ textAlign: "left" }}>The ICPC has a rich legacy of nurturing the brightest minds in the field of computer science and engineering, and the regional phase is a testament to the exceptional problem-solving skills and technical acumen of the participants. The contest challenges students to solve complex, real-world problems through the application of algorithmic principles and programming skills, fostering creativity, teamwork, and innovation.</p>
+          <p style={{ textAlign: "left" }}>
+            Members of the Team Include:
+          </p>
+          <ul>
+            <li className="about-activity">
+              <ImPointRight /> Kapish Upadhyay
+            </li>
+            <li className="about-activity">
+              <ImPointRight /> Shreyansh Mittal
+            </li>
+            <li className="about-activity">
+              <ImPointRight /> Utkarsh Shukla
+            </li>
+          </ul>
+
+          {/* <p style={{ color: "rgb(155 126 172)" }}>
+            "Strive to build things that make a difference!"{" "}
+          </p> */}
+          {/* <footer className="blockquote-footer">Soumyajit</footer> */}
+        </blockquote>
+      </Card.Body>
+    </Card>
+          </Col>
+          <Col
+            md={5}
+            style={{ paddingTop: "120px", paddingBottom: "50px" }}
+            className="about-img"
+          >
+            <img src={icpc1} alt="about" className="img-fluid" />
+            {/* <img src={icpc1} alt="about" className="img-fluid" /> */}
+          </Col>
+        </Row>
+        {/* <h1 className="project-heading">
           Professional <strong className="purple">Skillset </strong>
-        </h1>
+        </h1> */}
 
-        <Techstack />
+        {/* <Techstack /> */}
 
-        <h1 className="project-heading">
+        {/* <h1 className="project-heading">
           <strong className="purple">Tools</strong> I use
-        </h1>
-        <Toolstack />
+        </h1> */}
+        {/* <Toolstack /> */}
 
-        <Github />
+        {/* <Github /> */}
       </Container>
     </Container>
   );

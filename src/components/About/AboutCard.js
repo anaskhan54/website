@@ -7,34 +7,31 @@ function AboutCard() {
     <Card className="quote-card-view">
       <Card.Body>
         <blockquote className="blockquote mb-0">
-          <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Soumyajit Behera </span>
-            from <span className="purple"> Bhubaneswar, India.</span>
-            <br />
-            I am currently employed as a software developer at Juspay.
-            <br />
-            I have completed Integrated MSc (IMSc) in Maths and Computing at BIT
-            Mesra.
-            <br />
-            <br />
-            Apart from coding, some other activities that I love to do!
+          <p style={{ textAlign: "left" }}>
+            The regional phase of the <span className="purple"> ICPC</span>, the <span className="purple">International Collegiate Programming Contest</span> . A thunderous applause reverberates for each team member, celebrating their invaluable contributions and collaborative brilliance.
+          </p>
+          <p style={{ textAlign: "left" }}>
+            The <span className="purple">ICPC</span> is a prestigious global competition that challenges students to solve complex, real-world problems through the application of algorithmic principles and programming skills. The contest fosters creativity, teamwork, and innovation, and serves as a platform for students to showcase their technical acumen and problem-solving prowess.
+          </p>
+          <p style={{ textAlign: "left" }}>
+            Members of the Team inclued:
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games
+              <ImPointRight /> Satvik Maheshwari
             </li>
             <li className="about-activity">
-              <ImPointRight /> Writing Tech Blogs
+              <ImPointRight /> Utkarsh Kumar Yadav
             </li>
             <li className="about-activity">
-              <ImPointRight /> Travelling
+              <ImPointRight /> Shreyansh Mohan
             </li>
           </ul>
 
-          <p style={{ color: "rgb(155 126 172)" }}>
+          {/* <p style={{ color: "rgb(155 126 172)" }}>
             "Strive to build things that make a difference!"{" "}
-          </p>
-          <footer className="blockquote-footer">Soumyajit</footer>
+          </p> */}
+          {/* <footer className="blockquote-footer">Soumyajit</footer> */}
         </blockquote>
       </Card.Body>
     </Card>
