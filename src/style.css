@@ -473,6 +473,18 @@ button:focus {
   box-shadow: 0 4px 4px 5px rgba(144, 72, 96, 0.561) !important;
 }
 
+@media (max-width: 768px) {
+  .project-card {
+    padding: 10px !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .project-card {
+    padding: 5px !important;
+  }
+}
+
 .blog-card {
   padding-top: 50px !important;
   padding-bottom: 50px !important;
