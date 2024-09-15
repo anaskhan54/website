@@ -19,36 +19,12 @@ function Home2() {
               What We <span className="purple"> Do </span> 
             </h1>
             <p className="home-about-body">
-              We are the solo club of Ajay Kumar Garg Engineering College denoted completely to the field of  <b className="purple">Competitive Programming and DSA </b>
-              <br />
-              <br />We work 
-              <i>
-                <b className="purple"> C, C++, Java, Kotlin and Python. </b>
-              </i>
-              {/* <br /> */}
-              {/* <br /> */}
-              {/* My field of Interest's are building new &nbsp;
-              <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="purple">
-                  Blockchain.
-                </b>
-              </i> */}
-              <br />
-              <br />
-              We conduct Competitive Coding<b className="purple"> Workshops</b>  and <b className="purple">Seminars</b> to help students learn and grow in the field of Competitive Programming.
-               {/* <b className="purple">Node.js</b> and
-              <i>
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js and Next.js</b>
-              </i> */}
+
+              The <span className="purple">Programming Club</span> at Ajay Kumar Garg Engineering College is dedicated to <span className="purple">Competitive Programming and Data Structures & Algorithms (DSA)</span>.<br/><br/>
+               We aim to develop students' <span className="purple">problem-solving</span> skills through coding workshops and seminars that prepare them for national and global competitions.
+
+              Our events are designed for all skill levels, offering insights and techniques to master <span className="purple">Competitive Programming</span>. <br/><br/>
+              Whether you're a beginner or an experienced coder, the Programming Club is the perfect place to enhance your skills and succeed in coding challenges.
             </p>
           </Col>
           <Col md={4} className="myAvtar">
