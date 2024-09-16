@@ -96,7 +96,7 @@ function NavBar() {
 
             <Nav.Item>
               <Nav.Link
-                href="https://pc-frontend.anaskhan.site/"
+                href="https://register.programming-club.tech/" 
                 // target="_blank"
                 rel="noreferrer"
               >
