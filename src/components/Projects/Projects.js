@@ -231,7 +231,7 @@ function Projects() {
             <ProjectCard
               imgPath={ShambhaviPC}
               isBlog={false}
-              title="Shaambhavi"
+              title="Shambhavi"
               description=""
               ghLink=""
               demoLink=""
