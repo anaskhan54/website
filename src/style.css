@@ -87,8 +87,15 @@ button:focus {
   transition: all 0.3s ease-out 0s !important;
   padding: 0.3rem 2rem !important;
   font-size: 1.2rem !important;
+  border-radius: 15px; 
+  overflow: hidden;    
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
 }
-
+.navbar .container {
+  padding-left: 2rem !important;
+  padding-right: 2rem !important;
+}
 .navbar-toggler {
   position: relative !important;
   background-color: transparent !important;
@@ -203,6 +210,11 @@ button:focus {
 
 .navbar-nav .nav-item a:hover::after {
   width: 100%;
+}
+
+
+.navbar:hover {
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.3); /* Enhance the shadow on hover */
 }
 
 /* --------- */

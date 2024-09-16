@@ -33,15 +33,18 @@ import SnehaPC from "../../Assets/Projects/SnehaPC.png"
 import TusharPC from "../../Assets/Projects/TusharPC.png"
 import UtkarshPC from "../../Assets/Projects/UtkarshPC.png"
 import AdarshPC from "../../Assets/Projects/AdarshPC.png"
-import AkhilPC from "../../Assets/Projects/Akhilpc.jpg"
-import AnanyaPC from "../../Assets/Projects/AnanyaPC .png"
+import AkhilPC from "../../Assets/Projects/AkhilPC.jpg"
+import AnanyaPC from "../../Assets/Projects/AnanyaPC.jpg"
 import AnasPC from "../../Assets/Projects/AnasPC.png"
-import ApoorvaPC from "../../Assets/Projects/Apoorva.png"
+import ApoorvaPC from "../../Assets/Projects/Apoorva.jpeg"
 import AyushPC from "../../Assets/Projects/AyushAgrawalPC.jpg"
+import HarshitPC from "../../Assets/Projects/HarshitPC.jpeg"
 import LakshayPC from "../../Assets/Projects/Lakshay.jpg"
 import LakshyaPC from "../../Assets/Projects/Lakshya Goel.jpeg"
+import ManasPC from "../../Assets/Projects/ManasPC.jpg"
 import MeghaPC from "../../Assets/Projects/Megha.jpg"
-import MittalPC from "../../Assets/Projects/Mittal-.jpg"
+import MittalPC from "../../Assets/Projects/Mr.Mittal.jpg"
+import Paras from "../../Assets/Projects/Paras.jpg"
 import MohitPC from "../../Assets/Projects/Mohitpc.jpg"
 import PrachiPC from "../../Assets/Projects/PrachiPC.png"
 import PranjalPC from "../../Assets/Projects/PranjalPC.png"
@@ -52,6 +55,7 @@ import Shreyansh from "../../Assets/Projects/ShreyanshPC.png"
 import ShreyaPC from "../../Assets/Projects/ShreyaPC.png"
 import Siddhant from "../../Assets/Projects/SiddhantPC.png"
 import VaibhavPC from "../../Assets/Projects/VaibhavPC.png"
+
 
 import { useTransition } from "react";
 
@@ -287,7 +291,7 @@ function Projects() {
             <ProjectCard
               imgPath={UtkarshPC}
               isBlog={false}
-              title="Utakrsh"
+              title="Utkarsh"
               description=""
               ghLink=""
               demoLink=""
@@ -331,7 +335,7 @@ function Projects() {
             />
           </Col>
 
-          {/* <Col lg = {2} md={4} sm={6} xs={12} className="project-card">
+          <Col lg = {2} md={4} sm={6} xs={12} className="project-card">
             <ProjectCard
               imgPath={AkhilPC}
               isBlog={false}
@@ -340,7 +344,7 @@ function Projects() {
               ghLink=""
               demoLink=""
             />
-          </Col> */}
+          </Col>
           <Col lg = {2} md={4} sm={6} xs={12} className="project-card">
             <ProjectCard
               imgPath={AnanyaPC}
@@ -352,17 +356,8 @@ function Projects() {
             />
           </Col>
 
+       
           <Col lg = {2} md={4} sm={6} xs={12} className="project-card">
-            <ProjectCard
-              imgPath={AnasPC}
-              isBlog={false}
-              title="Anas"
-              description=""
-              ghLink=""
-              demoLink=""
-            />
-          </Col>
-          {/* <Col lg = {2} md={4} sm={6} xs={12} className="project-card">
             <ProjectCard
               imgPath={ApoorvaPC}
               isBlog={false}
@@ -371,13 +366,23 @@ function Projects() {
               ghLink=""
               demoLink=""
             />
-          </Col> */}
+          </Col>
 
           <Col lg = {2} md={4} sm={6} xs={12} className="project-card">
             <ProjectCard
               imgPath={AyushPC}
               isBlog={false}
               title="Ayush"
+              description=""
+              ghLink=""
+              demoLink=""
+            />
+          </Col>
+          <Col lg = {2} md={4} sm={6} xs={12} className="project-card">
+            <ProjectCard
+              imgPath={HarshitPC}
+              isBlog={false}
+              title="Harshit"
               description=""
               ghLink=""
               demoLink=""
@@ -407,6 +412,17 @@ function Projects() {
           </Col>
           <Col lg = {2} md={4} sm={6} xs={12} className="project-card">
             <ProjectCard
+              imgPath={ManasPC}
+              isBlog={false}
+              title="Manas"
+              description=""
+              ghLink=""
+              demoLink=""
+            />
+          </Col>
+
+          <Col lg = {2} md={4} sm={6} xs={12} className="project-card">
+            <ProjectCard
               imgPath={MeghaPC}
               isBlog={false}
               title="Megha"
@@ -415,7 +431,7 @@ function Projects() {
               demoLink=""
             />
           </Col>
-         {/* <Col lg = {2} md={4} sm={6} xs={12} className="project-card">
+         <Col lg = {2} md={4} sm={6} xs={12} className="project-card">
             <ProjectCard
               imgPath={MittalPC}
               isBlog={false}
@@ -424,13 +440,35 @@ function Projects() {
               ghLink=""
               demoLink=""
             />
-          </Col> */}
+          </Col>
+
           {/* not an square image  */}
+
+          <Col lg = {2} md={4} sm={6} xs={12} className="project-card">
+            <ProjectCard
+              imgPath={AnasPC}
+              isBlog={false}
+              title="Mohd. Anas"
+              description=""
+              ghLink=""
+              demoLink=""
+            />
+          </Col>
           <Col lg = {2} md={4} sm={6} xs={12} className="project-card">
             <ProjectCard
               imgPath={MohitPC}
               isBlog={false}
               title="Mohit"
+              description=""
+              ghLink=""
+              demoLink=""
+            />
+          </Col>
+          <Col lg = {2} md={4} sm={6} xs={12} className="project-card">
+            <ProjectCard
+              imgPath={Paras}
+              isBlog={false}
+              title="Paras"
               description=""
               ghLink=""
               demoLink=""
