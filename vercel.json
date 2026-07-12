@@ -1,4 +1,11 @@
 {
   "version": 2,
-  "builds": [{"src": "public/**", "use": "@vercel/static"}]
+  "builds": [{"src": "public/**", "use": "@vercel/static"}],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [{"key": "Cache-Control", "value": "public, max-age=0"}]
+    }
+  ],
+  "public": true
 }
