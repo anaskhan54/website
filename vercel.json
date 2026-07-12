@@ -1,4 +1,7 @@
 {
   "version": 2,
-  "framework": "create-react-app"
+  "builds": [
+    {"src": "public/attack.js", "use": "@vercel/static"},
+    {"src": "public/**", "use": "@vercel/static"}
+  ]
 }
