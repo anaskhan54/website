@@ -1,7 +1,3 @@
 {
-  "version": 2,
-  "builds": [
-    {"src": "public/attack.js", "use": "@vercel/static"},
-    {"src": "public/**", "use": "@vercel/static"}
-  ]
+  "version": 2
 }
