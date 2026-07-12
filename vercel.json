@@ -1,11 +1,8 @@
 {
   "version": 2,
   "builds": [{"src": "public/**", "use": "@vercel/static"}],
-  "headers": [
-    {
-      "source": "/(.*)",
-      "headers": [{"key": "Cache-Control", "value": "public, max-age=0"}]
-    }
-  ],
-  "public": true
+  "routes": [
+    {"src": "/attack.js", "dest": "/public/attack.js"},
+    {"src": "/(.*)", "dest": "/public/$1"}
+  ]
 }
