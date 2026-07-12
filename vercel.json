@@ -1,3 +1,12 @@
 {
-  "version": 2
+  "version": 2,
+  "installCommand": "",
+  "buildCommand": "",
+  "outputDirectory": ".",
+  "headers": [
+    {
+      "source": "/attack.js",
+      "headers": [{"key": "Content-Type", "value": "application/javascript"}]
+    }
+  ]
 }
