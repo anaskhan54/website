@@ -1,12 +1,5 @@
 {
   "version": 2,
-  "installCommand": "",
-  "buildCommand": "",
-  "outputDirectory": "dist",
-  "headers": [
-    {
-      "source": "/(.*)",
-      "headers": [{"key": "Access-Control-Allow-Origin", "value": "*"}]
-    }
-  ]
+  "framework": "create-react-app",
+  "installCommand": "npm install --legacy-peer-deps"
 }
